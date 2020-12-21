@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CssPages/Contact.css" />
+  </head>
+  <body>
+    <div id="header">
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="" />
+      </a>
+      <nav id="navigation">
+        <a href="Index.html">home</a>
+        <a href="About.html">about</a>
+        <a href="Gallery.html">gallery</a>
+        <a href="Blog.html">blog</a>
+        <a href="Contact.html">contact</a>
+      </nav>
+    </div>
+    <form action="result.html" method="GET">
+      <div class="EmailBox">
+        <label for="Email">Email address</label><br />
+        <input
+          type="ericcoker18@Yahoo.com"
+          placeholder="Email"
+          required
+        /><br />
+        <label for="Email">Comments</label><br />
+        <textarea
+          name="Message Us"
+          id="Message Box"
+          cols="30"
+          rows="10"
+          maxlength="500"
+          minlength="20"
+        ></textarea
+        ><br />
+      </div>
+
+      <div class="CheckBox">
+        <label for="Email">How did you hear about me?</label><br />
+        <input type="checkbox" />Classmate<br />
+        <input type="checkbox" />Resume Submission<br />
+        <input type="checkbox" />LinkedIn<br />
+        <input type="checkbox" />Coding Academy Rec<br />
+      </div>
+
+      <label for="Email">Would you like to be contacted back?</label><br />
+      <input type="Radio" />Yes<br />
+      <input type="Radio" />No<br />
+      <label for="Email">Optional birthday wish</label><br />
+      <input type="date" /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
